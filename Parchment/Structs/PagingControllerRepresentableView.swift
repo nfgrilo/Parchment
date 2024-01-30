@@ -48,6 +48,7 @@ struct PagingControllerRepresentableView: UIViewControllerRepresentable {
         }
         
         pagingViewController.options = options
+        pagingViewController.indicatorClass = PagingHostingIndicatorView.self
 
         pagingViewController.reloadData()
 
